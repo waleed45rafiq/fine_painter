@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="asset2/style/bootstrap.min.css">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flatui.min.css" />
+	<title>Fine Paitner</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.footin {
+			margin-top: 250px;
+			background-color: whitesmoke;
+			height: 400px;
+			width: 100%
+		}
+
+		.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 50px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 60%;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+			background-color: midnightblue;
+			color: whitesmoke;
+		}
+
+		.fa-facebook {
+			background: #3B5998;
+			color: white;
+		}
+
+		.fa-twitter {
+			background: #55ACEE;
+			color: white;
+		}
+
+		.fa-google {
+			background: #dd4b39;
+			color: white;
+		}
+
+		.jumb3 {
+			background-color: green;
+			height: 50%;
+			margin-top: 0px;
+		}
+
+		.fa-linkedin {
+			background: #007bb5;
+			color: white;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.topnav a.active {
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		.topnav .icon {
+			display: none;
+		}
+
+		@media screen and (max-width: 600px) {
+			.topnav a:not(:first-child) {
+				display: none;
+			}
+
+			.topnav a.icon {
+				float: right;
+				display: block;
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+			.topnav.responsive {
+				position: relative;
+			}
+
+			.topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+			.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/js/flat-ui.min.js"></script>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<!--	contact us section-->
+	<div class="topnav" id="myTopnav">
+		<a href="E:\waleednew\vsweb.html" class="active">Home</a>
+		<a href="E:\waleednew\about.html">About</a>
+		<a href="E:\waleednew\contact us.html">Contact</a>
+		<a href="E:\waleednew\gallary2.html">Gallary</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<div class="jumbotron jumb3">
+
+
+
+		<p style="color: honeydew;padding-top: 10%;text-align:center;">Contact Us</p>
+
+
+	</div>
+
+	<div class="container mt-5">
+
+		<div class="row">
+			<div class="col-md-4 text-center" style="border: 1px solid #C38E0A;width: 100%">
+				<span class="fa fa-envelope pt-5" style="font-size: 3em"></span>
+				<p class="font-weight-bolder pt-3">Call Use</p>
+				<p style="color: green">+92-3001589651</p>
+
+			</div>
+			<div class="col-md-4 text-center" style="width:100%;border: 1px solid #C38E0A">
+				<span class="fa fa-phone pt-5" style="font-size: 3em"></span>
+				<p class="font-weight-bolder pt-3"
+					style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';font-size: 1em">Send
+					Email Us</p>
+				<p class="font-weight-normal" style="color: green">FinePainter@gmail.com</p>
+
+			</div>
+			<div class="col-md-4 text-center" style="width:100%;border: 1px solid #C38E0A">
+				<span class="fa fa-map-marker pt-5" style="font-size: 3em"></span>
+				<p class="font-weight-bolder pt-3"
+					style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'">Address</p>
+				<p style="color: green">Model Colony Near Rabbani Masjid</p>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<h2 class="text-center" style="color: green">Drop Us A Message Now:</h2>
+		<div class="row mt-5 justify-content-center">
+			<div class="col-10" style="background-color: ghostwhite">
+				<form>
+					<div class="row mt-5 mb-5">
+
+						<div class="form-group col-6">
+							<label>Name</label><br>
+							<input class="form-control" type="text" id="name" name="name" placeholder="Name" required>
+						</div>
+
+						<div class="col-md-6 form-group">
+							<label>Email Address</label><br>
+							<input class="form-control" type="text" id="email" name="email" placeholder="Email Addres"
+								required>
+						</div>
+
+						<div class="col-md-6 form-group">
+							<label>Subject</label><br>
+							<input class="form-control" type="text" id="subject" name="subject" placeholder="Subject"
+								required>
+						</div>
+
+						<div class="col-md-6 form-group">
+							<label>Number</label><br>
+							<input class="form-control" type="number" id="Number" name="number" placeholder="Number"
+								required>
+						</div>
+						<div class="form-group col-md-12">
+							<label>Messege Here</label><br>
+							<textarea rows="6" class="form-control" id="msg" name="msg" placeholder="Write Your Message"
+								required>
+					</textarea>
+
+						</div>
+					</div>
+					<div class="">
+						<input class="btn btn-block btn-outline-success" onclick=Send() type="submit" value="Submitt">
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid  mt-8">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h1 style="color: green">Find Us</h1>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14475.61591120832!2d67.18100257458684!3d24.901256757508392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb337623ec7436f%3A0x48231685184fd3f2!2sModel+Colony+Malir+Cantonment%2C+Karachi%2C+Karachi+City%2C+Sindh%2C+Pakistan!5e0!3m2!1sen!2s!4v1540033132010"
+					width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="footin col-lg-3 col-md-3 col-sm-12">
+				<h6
+					style="font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';font-size: 25px">
+					About Company
+				</h6>
+				<p class="mt-4" style="font-weight: 500">Let us together create the new building of the future which
+					will be
+					everything in one form:architecture and sculpture and painting. The greatest advances of
+					civilization,
+					whether
+					in architecture.
+
+
+				</p>
+
+			</div>
+
+			<div class="footin col-lg-3 col-md-3 col-sm-12">
+				<h6 class="text-capitalize"
+					style="font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';font-size: 25px">
+					<b>services</b>
+				</h6><br>
+				<a style="color: black;font-size: 18px" class="text-capitalize" href="">Wall painting</a><br><br>
+				<a style="color: black;font-size: 18px " class="text-capitalize" href="">normal painting</a><br><br>
+				<a style="color: black;font-size: 18px " class="text-capitalize" href="">commercial painting</a><br><br>
+				<a style="color: black;font-size: 18px" class="text-capitalize" href="">residential painting</a><br><br>
+
+			</div>
+			<div class="footin col-lg-3 col-md-3 col-sm-12">
+				<h6 class="text-capitalize"
+					style="font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';font-size: 25px;">
+					<b> Company</b>
+				</h6><br>
+				<a style="color: black;font-size: 18px" class="text-capitalize" href="">about us</a><br><br>
+				<a style="color: black;font-size: 18px " class="text-capitalize" href="">affiliates</a><br><br>
+				<a style="color: black;font-size: 18px " class="text-capitalize" href="">careers</a><br><br>
+				<a style="color: black;font-size: 18px" class="text-capitalize" href="">privacy policy</a><br><br>
+				<br><br>
+
+
+			</div>
+			<div class="footin col-lg-3 col-md-3 col-sm-3">
+				<h6 class="text-capitalize"
+					style="font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';font-size: 20px;">
+					<b>follow us</b>
+				</h6>
+				<div class="social" style="padding: 20px">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+
+				</div>
+			</div>
+			<!-- footer end  -->
+
+		</div>
+
+
+		<div class="container-fluid mt-4" style="background-color:rgb(115, 155, 156)">
+			<p class="text-center font-weight-bolder">© 2019 All Rights Reserved By Fine Painter</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
